@@ -1,26 +1,26 @@
 # CVision-LAB---03
 
-## 🖥️ Computer Vision Lab – Experiment 3
+##  Computer Vision Lab – Experiment 3
 
-### 📌 Title
+###  Title
 
 **Mean Filtering using 3×3, 5×5 and 7×7 Filters**
 
 ---
 
-## 🎯 Aim
+##  Aim
 
 To implement **Mean Filtering** on a grayscale image using different filter sizes (3×3, 5×5, and 7×7) and observe their effect on image smoothing.
 
 ---
 
-## 📝 Objective
+##  Objective
 
 The objective of this experiment is to understand the working of a Mean Filter and analyze how increasing the filter size affects the smoothness and details of an image.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * Python
 * OpenCV
@@ -30,7 +30,7 @@ The objective of this experiment is to understand the working of a Mean Filter a
 
 ---
 
-## 📂 Repository Contents
+##  Repository Contents
 
 ```text
 CVision-LAB---03/
@@ -48,7 +48,7 @@ CVision-LAB---03/
 
 ---
 
-## 🔬 Theory
+##  Theory
 
 A **Mean Filter** is a spatial filtering technique used for image smoothing.
 
@@ -86,7 +86,7 @@ As the filter size increases, more neighboring pixels are considered, resulting 
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 The program performs the following steps:
 
@@ -101,7 +101,7 @@ The program performs the following steps:
 
 ---
 
-## 💻 Implementation
+##  Implementation
 
 The mean filters are implemented manually using nested loops.
 
@@ -133,7 +133,7 @@ The use of `//` performs integer division to obtain the average pixel value.
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### Google Colab
 
@@ -152,7 +152,7 @@ pip install opencv-python numpy matplotlib
 
 ---
 
-## 📷 Output
+##  Output
 
 The output contains:
 
@@ -165,7 +165,7 @@ The output contains:
 
 ---
 
-## 📊 Observation
+##  Observation
 
 | Filter      | Kernel Size | Smoothing Effect   |
 | ----------- | ----------: | ------------------ |
@@ -182,7 +182,7 @@ The output contains:
 
 ---
 
-## 📐 Output Size
+##  Output Size
 
 Since the program does not use padding, the output image becomes smaller depending on the filter size.
 
@@ -206,7 +206,7 @@ The program also prints the original image shape, grayscale image shape, and the
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 Mean Filtering was successfully implemented using **3×3, 5×5, and 7×7 kernels**.
 
